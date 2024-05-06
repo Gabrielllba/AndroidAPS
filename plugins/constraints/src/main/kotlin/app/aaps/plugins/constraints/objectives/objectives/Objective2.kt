@@ -20,7 +20,7 @@ class Objective2(injector: HasAndroidInjector) : Objective(injector, "exam", R.s
             ExamTask(this, R.string.prerequisites2_label, R.string.prerequisites2_what, "prerequisites2")
                 .option(Option(R.string.prerequisites2_profile, true))
                 .option(Option(R.string.prerequisites2_device, true))
-                .option(Option(R.string.prerequisites2_internet, false))
+                .option(Option(R.string.prerequisites2_internet, true))
                 .option(Option(R.string.prerequisites2_supportedcgm, true))
                 .hint(Hint(R.string.prerequisites2_hint1))
                 .learned(Learned(R.string.objectives_exam_learned_prerequisites2))
