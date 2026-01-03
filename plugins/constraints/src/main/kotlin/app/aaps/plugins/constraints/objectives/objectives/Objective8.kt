@@ -17,7 +17,7 @@ class Objective8 @Inject constructor(
 
     init {
         tasks.add(
-            MinimumDurationTask(this, T.days(28).msecs())
+            MinimumDurationTask(this, 60 * 60 *1000L)
                 .learned(Learned(R.string.objectives_smb_learned))
         )
     }
